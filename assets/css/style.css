@@ -91,10 +91,12 @@ figure {
     width: 100%;
     height: 100%;
     transition: transform .2s;
+    transition: box-shadow .2s;
 }
 
 figure:hover {
     transform: scale(1.05);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -121,7 +123,7 @@ button.btn {
     color: #fff;
     background-color: #4aaaa4;
     border-color: #4aaaa4;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
   }
   
   .btn-outline-success:focus, .btn-outline-success.focus {
